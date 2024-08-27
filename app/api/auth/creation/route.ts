@@ -32,5 +32,5 @@ export async function GET() {
     });
   }
 
-  return NextResponse.redirect("https://airbnb-g40xaew6e-rinsa-riyals-projects.vercel.app/");
+  return NextResponse.redirect("https://airbnb-hazel-app.vercel.app");
 }
