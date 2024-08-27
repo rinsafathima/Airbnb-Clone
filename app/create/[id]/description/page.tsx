@@ -13,9 +13,9 @@ export default function DescriptionPage({
 }) {
   return (
     <>
-      <div className="w-3/5 mx-auto">
-        <h2 className="text-3xl font-semibold tracking-tight transition-colors">
-          Please describe your home as good as you can!
+      <div className="w-3/5 mx-auto mt-8">
+        <h2 className="text-3xl font-semibold tracking-tight transition-colors  mb-8">
+          Describe your home as good as you can!
         </h2>
       </div>
 
@@ -29,6 +29,7 @@ export default function DescriptionPage({
               type="text"
               required
               placeholder="Short and simple..."
+              className="hover:border-primary focus:border-primary transition-all"
             />
           </div>
           <div className="flex flex-col gap-y-2">
@@ -37,6 +38,7 @@ export default function DescriptionPage({
               name="description"
               required
               placeholder="Please describe your home..."
+              className="hover:border-primary focus:border-primary transition-all"
             />
           </div>
 
@@ -48,6 +50,7 @@ export default function DescriptionPage({
               required
               placeholder="Price per Night in USD"
               min={10}
+              className="hover:border-primary focus:border-primary transition-all"
             />
           </div>
 
@@ -68,6 +71,8 @@ export default function DescriptionPage({
 
                 <Counter name="guest" />
               </div>
+
+              
               <div className="flex items-center justify-between">
                 <div className="flex flex-col">
                   <h3 className="underline font-medium">Rooms</h3>

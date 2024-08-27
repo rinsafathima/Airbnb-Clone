@@ -5,8 +5,8 @@ import { SelctetCategory } from "@/app/components/SelectedCategory";
 export default function StrucutreRoute({ params }: { params: { id: string } }) {
   return (
     <>
-      <div className="w-3/5 mx-auto">
-        <h2 className="text-3xl font-semibold tracking-tight transition-colors">
+      <div className="w-3/5 mx-auto mt-8">
+        <h2 className="text-3xl font-semibold tracking-tight transition-colors mb-8">
           Which of these best describe your Home?
         </h2>
       </div>
