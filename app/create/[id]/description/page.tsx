@@ -29,7 +29,7 @@ export default function DescriptionPage({
               type="text"
               required
               placeholder="Short and simple..."
-              className="hover:border-primary focus:border-primary transition-all"
+              className="hover:border-primary focus:border-primary transition-all text-lg"
             />
           </div>
           <div className="flex flex-col gap-y-2">
@@ -38,24 +38,24 @@ export default function DescriptionPage({
               name="description"
               required
               placeholder="Please describe your home..."
-              className="hover:border-primary focus:border-primary transition-all"
+              className="hover:border-primary focus:border-primary transition-all text-lg"
             />
           </div>
 
           <div className="flex flex-col gap-y-2">
-            <Label>Price</Label>
+            <Label className="text-lg">Price</Label>
             <Input
               name="price"
               type="number"
               required
               placeholder="Price per Night in USD"
               min={10}
-              className="hover:border-primary focus:border-primary transition-all"
+              className="hover:border-primary focus:border-primary transition-all text-lg"
             />
           </div>
 
           <div className="flex flex-col gap-y-2">
-            <Label>Image</Label>
+            <Label className="text-lg">Image</Label>
             <Input name="image" type="file" required />
           </div>
 
@@ -63,8 +63,8 @@ export default function DescriptionPage({
             <CardHeader className="flex flex-col gap-y-5">
               <div className="flex items-center justify-between">
                 <div className="flex flex-col">
-                  <h3 className="underline font-medium">Guests</h3>
-                  <p className="text-muted-foreground text-sm">
+                  <h3 className="underline font-medium text-lg">Guests</h3>
+                  <p className="text-muted-foreground text-base">
                     How many guests do you want?
                   </p>
                 </div>
@@ -75,8 +75,8 @@ export default function DescriptionPage({
               
               <div className="flex items-center justify-between">
                 <div className="flex flex-col">
-                  <h3 className="underline font-medium">Rooms</h3>
-                  <p className="text-muted-foreground text-sm">
+                  <h3 className="underline font-medium text-lg">Rooms</h3>
+                  <p className="text-muted-foreground text-base">
                     How many rooms do you have?
                   </p>
                 </div>
@@ -85,8 +85,8 @@ export default function DescriptionPage({
               </div>
               <div className="flex items-center justify-between">
                 <div className="flex flex-col">
-                  <h3 className="underline font-medium">Bathrooms</h3>
-                  <p className="text-muted-foreground text-sm">
+                  <h3 className="underline font-medium text-lg">Bathrooms</h3>
+                  <p className="text-muted-foreground text-base">
                     How many bathrooms do you have?
                   </p>
                 </div>
