@@ -10,7 +10,7 @@ export function SelctetCategory() {
     undefined
   );
   return (
-    <div className="grid grid-cols-4 gap-8 mt-10 w-3/5 mx-auto mb-36">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-10 w-11/12 mx-auto mb-36">
       <input
         type="hidden"
         name="categoryName"
@@ -26,12 +26,12 @@ export function SelctetCategory() {
               <Image
                 src={item.imageUrl}
                 alt={item.name}
-                height={32}
-                width={32}
-                className="w-8 h-8"
+                height={45}
+                width={45}
+                className="w-12 h-12"
               />
 
-              <h3 className="font-medium">{item.title}</h3>
+              <h3 className="font-medium text-center text-lg">{item.title}</h3>
             </CardHeader>
           </Card>
         </div>
