@@ -26,14 +26,15 @@ export function SelctetCategory() {
               <Image
                 src={item.imageUrl}
                 alt={item.name}
-                height={64}
-                width={64}
-                className="w-16 h-16"
+                height={52}
+                width={52}
+                className="w-12 h-12"
               />
 
-              <h3 className="font-medium text-center text-lg">{item.title}</h3>
+              <h3 className="font-medium  text-center text-lg">{item.title}</h3>
             </CardHeader>
           </Card>
+          <div className="absolute inset-0 bg-gray-200 opacity-0 group-hover:opacity-20 transition-opacity"></div>
         </div>
       ))}
     </div>
