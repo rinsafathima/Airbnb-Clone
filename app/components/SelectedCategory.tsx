@@ -34,7 +34,7 @@ export function SelctetCategory() {
               <h3 className="font-medium  text-center text-lg">{item.title}</h3>
             </CardHeader>
           </Card>
-          <div className="absolute inset-0 bg-gray-200 opacity-0 group-hover:opacity-20 transition-opacity"></div>
+          
         </div>
       ))}
     </div>
